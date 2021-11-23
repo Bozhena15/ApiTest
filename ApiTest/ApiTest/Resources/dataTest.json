@@ -1,0 +1,100 @@
+﻿{
+  "url": "https://jsonplaceholder.typicode.com/",
+  "stringLength": "12",
+  "data": [
+    {
+      "caseNum": "1",
+      "request": "/posts",
+      "result": [
+        {
+          "userId": "1",
+          "id": "1"
+        }
+      ]
+    },
+    {
+      "caseNum": "2",
+      "request": "/posts/99",
+      "result": [
+        {
+          "userId": "10",
+          "id": "99"
+        }
+      ]
+    },
+    {
+      "caseNum": "3",
+      "request": "/posts/150"
+    },
+    {
+      "caseNum": "4",
+      "request": "/posts",
+      "result": [
+        {
+          "userId": "1",
+          "id": "101",
+          "title": "not null",
+          "body": "not null"
+        }
+      ]
+    },
+    {
+      "caseNum": "5",
+      "request": "/users",
+      "result": [
+        {
+          "id": 5,
+          "name": "Chelsey Dietrich",
+          "username": "Kamren",
+          "email": "Lucio_Hettinger@annie.ca",
+          "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+              "lat": "-31.8129",
+              "lng": "62.5342"
+            }
+          },
+          "phone": "(254)954-1289",
+          "website": "demarco.info",
+          "company": {
+            "name": "Keebler LLC",
+            "catchPhrase": "User-centric fault-tolerant solution",
+            "bs": "revolutionize end-to-end systems"
+          }
+        }
+      ]
+    },
+    {
+      "caseNum": "6",
+      "request": "/users/5",
+      "result": [
+        {
+          "id": 5,
+          "name": "Chelsey Dietrich",
+          "username": "Kamren",
+          "email": "Lucio_Hettinger@annie.ca",
+          "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+              "lat": "-31.8129",
+              "lng": "62.5342"
+            }
+          },
+          "phone": "(254)954-1289",
+          "website": "demarco.info",
+          "company": {
+            "name": "Keebler LLC",
+            "catchPhrase": "User-centric fault-tolerant solution",
+            "bs": "revolutionize end-to-end systems"
+          }
+        }
+      ]
+    }
+  ]
+}
