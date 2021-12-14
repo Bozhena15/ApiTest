@@ -50,6 +50,6 @@ namespace ApiTest.Api
         public override string ToString() => $"Id : {Id}\nName : {Name}\nUserName : {UserName}\n" +
                                              $"Email : {Email}\nAddress : {Address[0]}\nPhone : {Phone}\n" +
                                              $"WebSite : {WebSite}\nCompany : {Company[0]}";
-       
+
     }
 }

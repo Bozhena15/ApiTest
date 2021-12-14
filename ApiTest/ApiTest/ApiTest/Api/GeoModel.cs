@@ -21,6 +21,7 @@ namespace ApiTest.Api
 
         public override int GetHashCode() => Lat.GetHashCode() + Lng.GetHashCode();
 
-        public override string ToString() => $"Lat : {Lat}\nLng : {Lng}";   
+        public override string ToString() => $"Lat : {Lat}\nLng : {Lng}";
     }
 }
+

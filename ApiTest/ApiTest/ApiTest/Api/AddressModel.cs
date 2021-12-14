@@ -34,6 +34,7 @@ namespace ApiTest.Api
         public override int GetHashCode() => Street.GetHashCode() + Suite.GetHashCode() + City.GetHashCode();
 
         public override string ToString() => $"Street : {Street}\nSuite : {Suite}\nCity : {City}\nZipcode : {Zipcode}\nGeo : {Geo[0]}";
-        
+
     }
 }
+
